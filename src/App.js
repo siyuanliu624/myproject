@@ -8,6 +8,7 @@ import './App.scss'
 function App() {
   return (
     <>
+    <h1>ths is my first react project.</h1>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
